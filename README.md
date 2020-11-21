@@ -48,7 +48,7 @@ https://seaborn.pydata.org/
  * sns.countplot - show count of observations
  * sns.pointplot - shows point estimates and confidence intervats as rectangular bars
  * sns.boxplot - boxplot / boxplot with wide-form data
- * sns.volionplot - violit plot
+ * sns.volionplot - violin plot
  
 ## Plot
  * plt.title("Add plot title")
