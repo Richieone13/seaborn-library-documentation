@@ -26,7 +26,7 @@ https://seaborn.pydata.org/
  * [sns.FacetGrid](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html) - subplot for plotting conditional relationship (this is very useful!), can use col_order, col_wrap=n
  * [sns.catplot](https://seaborn.pydata.org/generated/seaborn.catplot.html) - draw a categorical plot onto a Facetgrid, represent relationshop on a facet grid (in a way to represent the same relationshop with different conditions) it can be 3D, default is a point plot, can be kind="bar", "box", "swarn" 
  * [sns.lmplot](https://seaborn.pydata.org/generated/seaborn.lmplot.html) - plot data and regression model fits across a FacetGrid
- * [sns.pairgrid](https://seaborn.pydata.org/generated/seaborn.PairGrid.html) - subplot grid for plotting pairwise relationship
+ * [sns.pairgrid](https://seaborn.pydata.org/generated/seaborn.PairGrid.html) - subplot grid that allows to quickly summarize the different relationships with the different pairs of data - look at documentation
  * [sns.pairplot](https://seaborn.pydata.org/generated/seaborn.pairplot.html) - plot pairwise bivariate distributions
  * [sns.jointgrid](https://seaborn.pydata.org/generated/seaborn.JointGrid.html) - grid for birvariate plot with marginal univariate plots
  * [sns.jointplot](http://seaborn.pydata.org/generated/seaborn.jointplot.html) - plot bivariate distribution, this can be kind='hex' this can be Hexbin
