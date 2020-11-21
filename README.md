@@ -24,7 +24,7 @@ https://seaborn.pydata.org/
 ## Plot with Seaborn
 ### Axis Grids: 
  * sns.FacetGrid - subplot for plotting conditional relationship
- * sns.factorplot - draw a categorical plot onto a Facetgrid
+ * sns.factorplot - draw a categorical plot onto a Facetgrid, represent relationshop on a facet grid (in a way to represent the same relationshop with different conditions) it can be 3D, default is a point plot, can be kind="bar", "box", "swarn" 
  * sns.lmplot - plot data and regression model fits across a FacetGrid
  * sns.pairgrid - subplot grid for plotting pairwise relationship
  * sns.pairplot - plot pairwise bivariate distributions
@@ -43,12 +43,13 @@ https://seaborn.pydata.org/
 ### Categorical Plots:
  * sns.stripplot - scatterplot with one categorical variable
  * sns.swarmplot - categorical scatterplot with non-overlapping points
- * sns.contplot - shows count of observations
- * sns.barplot - Show point estimates and confidence intervals with scatterplot glyphs
+ * sns.countplot - shows count of observations
+ * sns.barplot - Show point estimates and confidence intervals with scatterplot glyphs (can represent 3 variables)
  * sns.countplot - show count of observations
- * sns.pointplot - shows point estimates and confidence intervats as rectangular bars
- * sns.boxplot - boxplot / boxplot with wide-form data (Q1/Q3 -/+  1.5 * interquartile range (IQR): 25th to the 75th percentile)
- * sns.volionplot - violin plot
+ * sns.pointplot - shows point estimates and confidence intervats as rectangular bars, they are connected
+ * sns.boxplot - boxplot Q1/Q3 -/+  1.5 * interquartile range (IQR): 25th to the 75th percentile) outside is the outliers
+ * sns.boxplot - boxplot with wide-form data this can be horiztonally displayed
+ * sns.volionplot - violin plot (Curved are a KDE of all possible points, thickness is how common the point is at the value, probability density, whiskers distance 1.5 IQR, thickest is the mode of the data, customise into count, and combine into swarm plot)
  
 ## Plot
  * plt.title("Add plot title")
