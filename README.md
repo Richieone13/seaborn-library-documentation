@@ -23,7 +23,7 @@ https://seaborn.pydata.org/
 
 ## Plot with Seaborn
 ### Axis Grids: 
- * sns.FacetGrid - subplot for plotting conditional relationship
+ * sns.FacetGrid - subplot for plotting conditional relationship (this is very useful!)
  * sns.factorplot - draw a categorical plot onto a Facetgrid, represent relationshop on a facet grid (in a way to represent the same relationshop with different conditions) it can be 3D, default is a point plot, can be kind="bar", "box", "swarn" 
  * sns.lmplot - plot data and regression model fits across a FacetGrid
  * sns.pairgrid - subplot grid for plotting pairwise relationship
@@ -66,3 +66,13 @@ https://seaborn.pydata.org/
  * plt.cla() - clear an axis
  * plt.clf() - clear an entire figure
  * plt.close() - close a window
+
+## FactetGrid
+g=sns.FacetGrid(data, col='column_a', hue="column_b")
+g.map(plt.scatter, "x axis title", "y axis title", alpha = 0.7)
+g.add_legend()
+
+g=sns.FacetGrid(data, row='column_a' col='column_b', hue="column_c")
+g.map(sns.regplot, "x axis title", "y axis title", fit_reg=False) #remove regression
+g.add_legend()
+plt.ylim(0,1000)
