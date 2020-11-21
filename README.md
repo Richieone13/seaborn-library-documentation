@@ -47,7 +47,7 @@ https://seaborn.pydata.org/
  * [sns.boxplot](https://seaborn.pydata.org/generated/seaborn.boxplot.html) - boxplot Q1/Q3 -/+  1.5 * interquartile range (IQR): 25th to the 75th percentile) outside is the outliers, boxplot with wide-form data this can be horiztonally displayed
  * [sns.volionplot](https://seaborn.pydata.org/generated/seaborn.violinplot.html) - violin plot (Curved are a KDE of all possible points, thickness is how common the point is at the value, probability density, whiskers distance 1.5 IQR, thickest is the mode of the data, customise into count, and combine into swarm plot)
  * [sns.stripplot](https://seaborn.pydata.org/generated/seaborn.stripplot.html) - scatterplot with one categorical variable
- * [sns.swarmplot](https://seaborn.pydata.org/generated/seaborn.swarmplot.html) - categorical scatterplot with non-overlapping points
+ * [sns.swarmplot](https://seaborn.pydata.org/generated/seaborn.swarmplot.html) - swarmplot an extension of stripplot without need to specify jitter = True, all points are definitely going to be visible, whereas jitter might hide points, categorical scatterplot with non-overlapping points
  * [sns.barplot](https://seaborn.pydata.org/generated/seaborn.barplot.html) - Show point estimates and confidence intervals with scatterplot glyphs (can represent 3 variables)
  * [sns.pointplot](https://seaborn.pydata.org/generated/seaborn.pointplot.html) - shows point estimates and confidence intervats as rectangular bars, they are connected
 
