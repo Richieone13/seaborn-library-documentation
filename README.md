@@ -23,36 +23,34 @@ https://seaborn.pydata.org/
 
 ## Plot with Seaborn
 ### Axis Grids: 
- * sns.FacetGrid - subplot for plotting conditional relationship (this is very useful!)
- * sns.factorplot - draw a categorical plot onto a Facetgrid, represent relationshop on a facet grid (in a way to represent the same relationshop with different conditions) it can be 3D, default is a point plot, can be kind="bar", "box", "swarn" 
- * sns.lmplot - plot data and regression model fits across a FacetGrid
- * sns.pairgrid - subplot grid for plotting pairwise relationship
- * sns.pairplot - plot pairwise bivariate distributions
- * sns.jointgrid - grid for birvariate plot with marginal univariate plots
- * sns.jointplot - plot bivariate distribution, this can be kind='hex' this can be Hexbin
- * sns.kdeplot - plot univariate or bivariate distributions using kernel density estimation
+ * [sns.FacetGrid](https://seaborn.pydata.org/generated/seaborn.FacetGrid.html) - subplot for plotting conditional relationship (this is very useful!), can use col_order, col_wrap=n
+ * [sns.catplot](https://seaborn.pydata.org/generated/seaborn.catplot.html) - draw a categorical plot onto a Facetgrid, represent relationshop on a facet grid (in a way to represent the same relationshop with different conditions) it can be 3D, default is a point plot, can be kind="bar", "box", "swarn" 
+ * [sns.lmplot](https://seaborn.pydata.org/generated/seaborn.lmplot.html) - plot data and regression model fits across a FacetGrid
+ * [sns.pairgrid](https://seaborn.pydata.org/generated/seaborn.PairGrid.html) - subplot grid for plotting pairwise relationship
+ * [sns.pairplot](https://seaborn.pydata.org/generated/seaborn.pairplot.html) - plot pairwise bivariate distributions
+ * [sns.jointgrid](https://seaborn.pydata.org/generated/seaborn.JointGrid.html) - grid for birvariate plot with marginal univariate plots
+ * [sns.jointplot](http://seaborn.pydata.org/generated/seaborn.jointplot.html) - plot bivariate distribution, this can be kind='hex' this can be Hexbin
+ * [sns.kdeplot](https://seaborn.pydata.org/generated/seaborn.kdeplot.html) - plot univariate or bivariate distributions using kernel density estimation
 
 ### Regression Plots:
- * sns.regplot - plot data and a linear regression model fit
+ * [sns.regplot](https://seaborn.pydata.org/generated/seaborn.regplot.html) - plot data and a linear regression model fit
 
 ### Distribution Plots
- * sns.displot - plot univariate distribution
- * sns.histplot - plot univariate or bivariate histograms to show distributions of datasets
+ * [sns.displot](https://seaborn.pydata.org/generated/seaborn.displot.html) - plot univariate distribution
+ * [sns.histplot](https://seaborn.pydata.org/generated/seaborn.histplot.html) - plot univariate or bivariate histograms to show distributions of datasets
  
 ### Matrix Plots:
- * sns.heapmap - heatmap
+ * [sns.heapmap](https://seaborn.pydata.org/generated/seaborn.heatmap.html) - heatmap
  
 ### Categorical Plots:
- * sns.stripplot - scatterplot with one categorical variable
- * sns.swarmplot - categorical scatterplot with non-overlapping points
- * sns.countplot - shows count of observations
- * sns.barplot - Show point estimates and confidence intervals with scatterplot glyphs (can represent 3 variables)
- * sns.countplot - show count of observations
- * sns.pointplot - shows point estimates and confidence intervats as rectangular bars, they are connected
- * sns.boxplot - boxplot Q1/Q3 -/+  1.5 * interquartile range (IQR): 25th to the 75th percentile) outside is the outliers
- * sns.boxplot - boxplot with wide-form data this can be horiztonally displayed
- * sns.volionplot - violin plot (Curved are a KDE of all possible points, thickness is how common the point is at the value, probability density, whiskers distance 1.5 IQR, thickest is the mode of the data, customise into count, and combine into swarm plot)
- 
+ * [sns.countplot](https://seaborn.pydata.org/generated/seaborn.countplot.html) - shows count of observations
+ * [sns.boxplot](https://seaborn.pydata.org/generated/seaborn.boxplot.html) - boxplot Q1/Q3 -/+  1.5 * interquartile range (IQR): 25th to the 75th percentile) outside is the outliers, boxplot with wide-form data this can be horiztonally displayed
+ * [sns.volionplot](https://seaborn.pydata.org/generated/seaborn.violinplot.html) - violin plot (Curved are a KDE of all possible points, thickness is how common the point is at the value, probability density, whiskers distance 1.5 IQR, thickest is the mode of the data, customise into count, and combine into swarm plot)
+ * [sns.stripplot](https://seaborn.pydata.org/generated/seaborn.stripplot.html) - scatterplot with one categorical variable
+ * [sns.swarmplot](https://seaborn.pydata.org/generated/seaborn.swarmplot.html) - categorical scatterplot with non-overlapping points
+ * [sns.barplot](https://seaborn.pydata.org/generated/seaborn.barplot.html) - Show point estimates and confidence intervals with scatterplot glyphs (can represent 3 variables)
+ * [sns.pointplot](https://seaborn.pydata.org/generated/seaborn.pointplot.html) - shows point estimates and confidence intervats as rectangular bars, they are connected
+
 ## Plot
  * plt.title("Add plot title")
  * plt.ylabel("adjust the label of the y-axis")
