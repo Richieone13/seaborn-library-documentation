@@ -69,10 +69,17 @@ https://seaborn.pydata.org/
 
 ## FactetGrid
 g=sns.FacetGrid(data, col='column_a', hue="column_b")
+
 g.map(plt.scatter, "x axis title", "y axis title", alpha = 0.7)
+
 g.add_legend()
 
 g=sns.FacetGrid(data, row='column_a' col='column_b', hue="column_c")
+
+___
+
 g.map(sns.regplot, "x axis title", "y axis title", fit_reg=False) #remove regression
+
 g.add_legend()
+
 plt.ylim(0,1000)
