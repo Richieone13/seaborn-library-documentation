@@ -29,13 +29,15 @@ https://seaborn.pydata.org/
  * sns.pairgrid - subplot grid for plotting pairwise relationship
  * sns.pairplot - plot pairwise bivariate distributions
  * sns.jointgrid - grid for birvariate plot with marginal univariate plots
- * sns.jointplot - plot bivariate distribution
- 
+ * sns.jointplot - plot bivariate distribution, this can be kind='hex' this can be Hexbin
+ * sns.kdeplot - plot univariate or bivariate distributions using kernel density estimation
+
 ### Regression Plots:
  * sns.regplot - plot data and a linear regression model fit
 
 ### Distribution Plots
  * sns.displot - plot univariate distribution
+ * sns.histplot - plot univariate or bivariate histograms to show distributions of datasets
  
 ### Matrix Plots:
  * sns.heapmap - heatmap
