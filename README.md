@@ -47,7 +47,7 @@ https://seaborn.pydata.org/
  * sns.barplot - Show point estimates and confidence intervals with scatterplot glyphs
  * sns.countplot - show count of observations
  * sns.pointplot - shows point estimates and confidence intervats as rectangular bars
- * sns.boxplot - boxplot / boxplot with wide-form data
+ * sns.boxplot - boxplot / boxplot with wide-form data (Q1/Q3 -/+  1.5 * interquartile range (IQR): 25th to the 75th percentile)
  * sns.volionplot - violin plot
  
 ## Plot
