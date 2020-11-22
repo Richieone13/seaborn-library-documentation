@@ -81,3 +81,12 @@ g.map(sns.regplot, "x axis title", "y axis title", fit_reg=False) #remove regres
 g.add_legend()
 
 plt.ylim(0,1000)
+
+## Control Plot Aesthetics and Style - Qualitative and sequential palettes
+ * [sns.set()](https://seaborn.pydata.org/tutorial/aesthetics.html) sets the color theme as default
+ * [sns.despine](https://seaborn.pydata.org/generated/seaborn.despine.html) removes the axis on the chart
+ * [sns.color_palette()](https://seaborn.pydata.org/tutorial/color_palettes.html) Return a list of colors or continuous colormap defining a palette
+ * [sns.choose_colorbrewer_palette()](https://seaborn.pydata.org/generated/seaborn.choose_colorbrewer_palette.html) An interactive widget that allows to brwose the palette from the ColorBrewer set. This depends on the datatype sequential’, ‘diverging’, ‘qualitative
+ * [sns.cubehelix_palette](https://seaborn.pydata.org/generated/seaborn.cubehelix_palette.html) linearly-decreasing (or increasing) brightness, information will be preserved if printed to black and white or viewed by someone who is colorblind
+ * [sns.axes_style()](https://seaborn.pydata.org/generated/seaborn.axes_style.html) Return a parameter dict for the aesthetic style of the plots
+ * BONUS sns.set_context("talk") presentational style, where the font are bigger, sns.set_context("poster") good for printing, sns.set_context("notebook") desgined for notebook
